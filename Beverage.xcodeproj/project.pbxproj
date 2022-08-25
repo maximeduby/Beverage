@@ -13,10 +13,11 @@
 		FE2D617D2884508600582E62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2D617C2884508600582E62 /* Preview Assets.xcassets */; };
 		FE3A66E628AD62A40093686C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3A66E528AD62A40093686C /* Dashboard.swift */; };
 		FE4B67DF28B5329000AB9551 /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4B67DE28B5329000AB9551 /* PersonalData.swift */; };
-		FE83C20528AE38AC009399A3 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE83C20428AE38AC009399A3 /* HealthKit.framework */; };
+		FE4B67E928B7E90E00AB9551 /* AlcoholConsumned+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4B67E728B7E90E00AB9551 /* AlcoholConsumned+CoreDataClass.swift */; };
+		FE4B67EC28B7E9C600AB9551 /* AlcoholConsumned+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4B67E828B7E90E00AB9551 /* AlcoholConsumned+CoreDataProperties.swift */; };
+		FE4B67EE28B7F0AA00AB9551 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE83C20428AE38AC009399A3 /* HealthKit.framework */; };
+		FE4B67EF28B7F0AA00AB9551 /* HealthKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE83C20428AE38AC009399A3 /* HealthKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FE83C20728AE44A6009399A3 /* HealthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83C20628AE44A6009399A3 /* HealthStoreManager.swift */; };
-		FE83C21028B00880009399A3 /* AlcoholConsumned+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83C20E28B00880009399A3 /* AlcoholConsumned+CoreDataClass.swift */; };
-		FE83C21128B00880009399A3 /* AlcoholConsumned+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83C20F28B00880009399A3 /* AlcoholConsumned+CoreDataProperties.swift */; };
 		FE89816528904AD700447882 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89816428904AD700447882 /* JSONManager.swift */; };
 		FE89816C28906CFA00447882 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89816A28906CFA00447882 /* Product+CoreDataClass.swift */; };
 		FE89816D28906CFA00447882 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE89816B28906CFA00447882 /* Product+CoreDataProperties.swift */; };
@@ -34,23 +35,37 @@
 		FED590C1288BF8560009E293 /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED590C0288BF8560009E293 /* ProductDetails.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FE4B67F028B7F0AA00AB9551 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FE4B67EF28B7F0AA00AB9551 /* HealthKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		FE13F7B5289129C600237C95 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
-		FE2D61722884508400582E62 /* Beverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2D61752884508400582E62 /* BeverageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeverageApp.swift; sourceTree = "<group>"; };
 		FE2D61792884508600582E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2D617C2884508600582E62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE2D618B288499D400582E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FE3A66E528AD62A40093686C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		FE4B67DE28B5329000AB9551 /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
+		FE4B67E728B7E90E00AB9551 /* AlcoholConsumned+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AlcoholConsumned+CoreDataClass.swift"; path = "Beverage/Models/AlcoholConsumned/AlcoholConsumned+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		FE4B67E828B7E90E00AB9551 /* AlcoholConsumned+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AlcoholConsumned+CoreDataProperties.swift"; path = "Beverage/Models/AlcoholConsumned/AlcoholConsumned+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FE4B67ED28B7F04C00AB9551 /* Beverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE83C20228AE38AC009399A3 /* Beverage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beverage.entitlements; sourceTree = "<group>"; };
 		FE83C20428AE38AC009399A3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		FE83C20628AE44A6009399A3 /* HealthStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreManager.swift; sourceTree = "<group>"; };
-		FE83C20E28B00880009399A3 /* AlcoholConsumned+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlcoholConsumned+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		FE83C20F28B00880009399A3 /* AlcoholConsumned+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlcoholConsumned+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		FE89816428904AD700447882 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
-		FE89816A28906CFA00447882 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataClass.swift"; path = "Beverage/Product+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		FE89816B28906CFA00447882 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "Beverage/Product+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FE89816A28906CFA00447882 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataClass.swift"; path = "Beverage/Models/Product/Product+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		FE89816B28906CFA00447882 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Product+CoreDataProperties.swift"; path = "Beverage/Models/Product/Product+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		FE89816E2890733400447882 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		FE9D3AE02891A4340090FEB6 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		FE9D3AE32891A67E0090FEB6 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
@@ -70,7 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE99C7222892CF0E00214A82 /* SlideOverCard in Frameworks */,
-				FE83C20528AE38AC009399A3 /* HealthKit.framework in Frameworks */,
+				FE4B67EE28B7F0AA00AB9551 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,30 +96,22 @@
 			isa = PBXGroup;
 			children = (
 				FE2D61742884508400582E62 /* Beverage */,
-				FE2D61732884508400582E62 /* Products */,
 				FE83C20328AE38AC009399A3 /* Frameworks */,
+				FE4B67ED28B7F04C00AB9551 /* Beverage.app */,
 			);
-			sourceTree = "<group>";
-		};
-		FE2D61732884508400582E62 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FE2D61722884508400582E62 /* Beverage.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FE2D61742884508400582E62 /* Beverage */ = {
 			isa = PBXGroup;
 			children = (
+				FE4B67E128B7E7F800AB9551 /* Extensions */,
+				FE4B67E028B7E77500AB9551 /* Managers */,
+				FE4B67E228B7E81E00AB9551 /* Views */,
+				FE4B67EB28B7E92900AB9551 /* Shapes */,
+				FE4B67E428B7E87400AB9551 /* Models */,
 				FE83C20228AE38AC009399A3 /* Beverage.entitlements */,
 				FE9D3AE02891A4340090FEB6 /* data.json */,
 				FE2D618B288499D400582E62 /* Info.plist */,
-				FED590BD288BEE440009E293 /* Managers */,
-				FECD356B288A0BBF008218D5 /* Extensions */,
-				FE2D6186288467E100582E62 /* Views */,
-				FE2D618328845A5900582E62 /* Models */,
-				FE9D3AE22891A6590090FEB6 /* Shapes */,
 				FE2D61752884508400582E62 /* BeverageApp.swift */,
 				FE2D61792884508600582E62 /* Assets.xcassets */,
 				FE2D617B2884508600582E62 /* Preview Content */,
@@ -120,20 +127,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FE2D618328845A5900582E62 /* Models */ = {
+		FE4B67E028B7E77500AB9551 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				FED590BA288B213B0009E293 /* BeverageModel.xcdatamodeld */,
-				FE83C20D28AEB83D009399A3 /* AlcoholConsumned */,
-				FED590CB288C42700009E293 /* Product */,
+				FED590BE288BEE820009E293 /* CoreDataManager.swift */,
+				FE89816428904AD700447882 /* JSONManager.swift */,
+				FE83C20628AE44A6009399A3 /* HealthStoreManager.swift */,
 			);
-			path = Models;
+			path = Managers;
 			sourceTree = "<group>";
 		};
-		FE2D6186288467E100582E62 /* Views */ = {
+		FE4B67E128B7E7F800AB9551 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FE6846402885950800A4EDEE /* Components */,
+				FECD356C288A0BDB008218D5 /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE4B67E228B7E81E00AB9551 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE4B67E328B7E82E00AB9551 /* Components */,
 				FED590C0288BF8560009E293 /* ProductDetails.swift */,
 				FECD355D288978D3008218D5 /* SearchResults.swift */,
 				FECD35652889D34C008218D5 /* Home.swift */,
@@ -145,7 +160,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		FE6846402885950800A4EDEE /* Components */ = {
+		FE4B67E328B7E82E00AB9551 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				FE89816E2890733400447882 /* SearchBar.swift */,
@@ -154,24 +169,35 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		FE83C20328AE38AC009399A3 /* Frameworks */ = {
+		FE4B67E428B7E87400AB9551 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FE83C20428AE38AC009399A3 /* HealthKit.framework */,
+				FE4B67E528B7E87C00AB9551 /* AlcoholConsumned */,
+				FE4B67E628B7E8BF00AB9551 /* Product */,
+				FED590BA288B213B0009E293 /* BeverageModel.xcdatamodeld */,
 			);
-			name = Frameworks;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		FE83C20D28AEB83D009399A3 /* AlcoholConsumned */ = {
+		FE4B67E528B7E87C00AB9551 /* AlcoholConsumned */ = {
 			isa = PBXGroup;
 			children = (
-				FE83C20E28B00880009399A3 /* AlcoholConsumned+CoreDataClass.swift */,
-				FE83C20F28B00880009399A3 /* AlcoholConsumned+CoreDataProperties.swift */,
+				FE4B67E728B7E90E00AB9551 /* AlcoholConsumned+CoreDataClass.swift */,
+				FE4B67E828B7E90E00AB9551 /* AlcoholConsumned+CoreDataProperties.swift */,
 			);
 			path = AlcoholConsumned;
 			sourceTree = "<group>";
 		};
-		FE9D3AE22891A6590090FEB6 /* Shapes */ = {
+		FE4B67E628B7E8BF00AB9551 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				FE89816A28906CFA00447882 /* Product+CoreDataClass.swift */,
+				FE89816B28906CFA00447882 /* Product+CoreDataProperties.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		FE4B67EB28B7E92900AB9551 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
 				FE9D3AE32891A67E0090FEB6 /* Wave.swift */,
@@ -179,31 +205,12 @@
 			path = Shapes;
 			sourceTree = "<group>";
 		};
-		FECD356B288A0BBF008218D5 /* Extensions */ = {
+		FE83C20328AE38AC009399A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FECD356C288A0BDB008218D5 /* UIApplication.swift */,
+				FE83C20428AE38AC009399A3 /* HealthKit.framework */,
 			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		FED590BD288BEE440009E293 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				FED590BE288BEE820009E293 /* CoreDataManager.swift */,
-				FE89816428904AD700447882 /* JSONManager.swift */,
-				FE83C20628AE44A6009399A3 /* HealthStoreManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		FED590CB288C42700009E293 /* Product */ = {
-			isa = PBXGroup;
-			children = (
-				FE89816A28906CFA00447882 /* Product+CoreDataClass.swift */,
-				FE89816B28906CFA00447882 /* Product+CoreDataProperties.swift */,
-			);
-			path = Product;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +223,7 @@
 				FE2D616E2884508400582E62 /* Sources */,
 				FE2D616F2884508400582E62 /* Frameworks */,
 				FE2D61702884508400582E62 /* Resources */,
+				FE4B67F028B7F0AA00AB9551 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,7 +234,7 @@
 				FE99C7212892CF0E00214A82 /* SlideOverCard */,
 			);
 			productName = Beverage;
-			productReference = FE2D61722884508400582E62 /* Beverage.app */;
+			productReference = FE4B67ED28B7F04C00AB9551 /* Beverage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -256,7 +264,7 @@
 			packageReferences = (
 				FE99C7202892CF0E00214A82 /* XCRemoteSwiftPackageReference "SlideOverCard" */,
 			);
-			productRefGroup = FE2D61732884508400582E62 /* Products */;
+			productRefGroup = FE2D61692884508300582E62;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -288,15 +296,15 @@
 				FECD35662889D34C008218D5 /* Home.swift in Sources */,
 				FEC5339528AB022C000C49F6 /* Favorites.swift in Sources */,
 				FED590C1288BF8560009E293 /* ProductDetails.swift in Sources */,
-				FE83C21028B00880009399A3 /* AlcoholConsumned+CoreDataClass.swift in Sources */,
 				FE89816528904AD700447882 /* JSONManager.swift in Sources */,
 				FE83C20728AE44A6009399A3 /* HealthStoreManager.swift in Sources */,
 				FE89816D28906CFA00447882 /* Product+CoreDataProperties.swift in Sources */,
 				FE9D3AE42891A67E0090FEB6 /* Wave.swift in Sources */,
+				FE4B67EC28B7E9C600AB9551 /* AlcoholConsumned+CoreDataProperties.swift in Sources */,
 				FE89816F2890733400447882 /* SearchBar.swift in Sources */,
-				FE83C21128B00880009399A3 /* AlcoholConsumned+CoreDataProperties.swift in Sources */,
 				FE13F7B6289129C600237C95 /* ProductCard.swift in Sources */,
 				FE89816C28906CFA00447882 /* Product+CoreDataClass.swift in Sources */,
+				FE4B67E928B7E90E00AB9551 /* AlcoholConsumned+CoreDataClass.swift in Sources */,
 				FECD356A2889FCEA008218D5 /* HomeViewModel.swift in Sources */,
 				FE2D61762884508400582E62 /* BeverageApp.swift in Sources */,
 				FE3A66E628AD62A40093686C /* Dashboard.swift in Sources */,

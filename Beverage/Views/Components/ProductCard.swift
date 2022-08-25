@@ -47,6 +47,7 @@ struct ProductCard: View {
             .background(.ultraThinMaterial)
             .cornerRadius(20)
         }
+        .frame(width: 170)
         .onTapGesture {
             showDetails.toggle()
         }
