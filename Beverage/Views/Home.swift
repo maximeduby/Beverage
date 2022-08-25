@@ -132,9 +132,7 @@ struct Home: View {
                                 .foregroundColor(.primary)
                                 .fontWeight(.bold)
                                 .padding(.vertical, 10)
-                        }
-                        
-                    }
+                        }                    }
                     .onTapGesture {
                         index = 2
                         categoryFilter = "spirit"
