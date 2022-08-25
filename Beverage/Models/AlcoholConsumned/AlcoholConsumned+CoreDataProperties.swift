@@ -18,7 +18,6 @@ extension AlcoholConsumned {
 
     @NSManaged public var amount: Double
     @NSManaged public var date: Date?
-
 }
 
 extension AlcoholConsumned : Identifiable {

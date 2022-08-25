@@ -59,8 +59,7 @@ struct Dashboard: View {
         if (hsManager?.checkStatus(quantityType: quantityType!))! {
             self.hsManager?.healthStore?.save(bacValue, withCompletion: { success, error in
                 if error != nil {
-                    print(error!)
-                    
+                    print(error!) 
                 }
                 if success {
                     print("success")

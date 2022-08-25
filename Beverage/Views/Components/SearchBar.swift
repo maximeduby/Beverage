@@ -24,7 +24,6 @@ struct SearchBar: View {
                         .onTapGesture {
                             UIApplication.shared.endEditing()
                             searchText = ""
-                            
                         }
                     ,alignment: .trailing
                 )

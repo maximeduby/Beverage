@@ -17,7 +17,6 @@ struct SearchResults<T: NSManagedObject, Content: View>: View {
         ForEach(fetchRequest, id: \.self) { item in
             self.content(item)
         }
-        
     }
     
     init(filterKey1: String, filterValue1: String, filterKey2: String, filterValue2: String, @ViewBuilder content: @escaping (T) -> Content) {

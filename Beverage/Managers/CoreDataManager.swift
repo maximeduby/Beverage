@@ -37,7 +37,6 @@ class CoreDataManager {
         product.variety = item.variety
         product.isFavorite = false
         
-        
         do {
             try persistentContainer.viewContext.save()
         } catch {

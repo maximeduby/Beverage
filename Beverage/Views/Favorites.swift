@@ -48,8 +48,7 @@ struct Favorites: View {
                         ScrollView(.horizontal) {
                             HStack{
                                 SearchResults(filterKey1: "isFavorite", filterValue1: "1", filterKey2: "category", filterValue2: "beer") { (product: Product) in
-                                    ProductCard(product: product)
-                                        
+                                    ProductCard(product: product)     
                                 }
                             }
                             .padding(.horizontal)

@@ -29,7 +29,6 @@ extension Product {
     @NSManaged public var variety: String
     @NSManaged public var year: Int16
     @NSManaged public var id: Int16
-
 }
 
 extension Product : Identifiable {

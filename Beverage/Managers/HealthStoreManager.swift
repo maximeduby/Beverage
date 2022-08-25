@@ -27,7 +27,6 @@ class HealthStoreManager {
         healthStore.requestAuthorization(toShare: [bacType, alcConsuType], read: []) {(success, error) in
             completion(success)
         }
-
     }
     
     func checkStatus(quantityType: HKQuantityType) -> Bool {

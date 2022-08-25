@@ -86,7 +86,6 @@ struct Home: View {
                                 .fontWeight(.bold)
                                 .padding(.vertical, 10)
                         }
-                        
                     }
                     .onTapGesture {
                         index = 0

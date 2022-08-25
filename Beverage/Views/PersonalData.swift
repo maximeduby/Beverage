@@ -36,7 +36,6 @@ struct PersonalData: View {
                             .padding(.horizontal)
                             .background(.ultraThinMaterial)
                             .cornerRadius(20)
-                        
                         }
                         .listRowBackground(Color("bgd"))
                         HStack {

@@ -54,8 +54,7 @@ struct ProductCard: View {
         .sheet(isPresented: $showDetails) {
             ProductDetails(product: product)
         }
-    }
-        
+    }  
 }
 
 struct ProductCard_Previews: PreviewProvider {

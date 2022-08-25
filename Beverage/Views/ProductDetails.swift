@@ -48,8 +48,7 @@ struct ProductDetails: View {
             return amount * product.abv * 0.82353
         default:
             return 0.0
-        }
-        
+        } 
     }
     var hsManager = HealthStoreManager()
     
