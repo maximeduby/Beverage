@@ -25,7 +25,7 @@ I do not own the data used for this app. Therefore, I borrowed them from differe
 
 1. The 1st one displays the type of wine/beer/spirit, the vintage if it is a wine, the ABV, and a short description of the beverage
 2. The 2nd one inform about its origin (country and region). 
-3. The 3rd one gives food recommendations that matches the beverage, what does it taste like, if it is a wine, the grape variety.
+3. The 3rd one gives food recommendations that matches the beverage, what does it taste like and, if it is a wine, the grape variety.
 
 # FEATURES
 ## Favorites
