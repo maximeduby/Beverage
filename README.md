@@ -34,7 +34,7 @@ I do not own the data used for this app. Therefore, I borrowed them from differe
 
 You can add any beverage to your "Favorites" and find it among all your favorites.
 
-Your favorites are organized and sorted according to their categories (Wines, Beers, and Spirits
+Your favorites are organized and sorted according to their categories (Wines, Beers, and Spirits).
 
 
 ## Add an alcohol intake
